@@ -1,3 +1,5 @@
+import os
+import sys
 from PyQt5.QtWidgets import QPlainTextEdit
 from PyQt5.QtGui import QFont
 
@@ -32,4 +34,5 @@ class MarkdownTextEdit(QPlainTextEdit):
                 return
         
         # Default text paste behavior
+
         super().insertFromMimeData(mime_data)
