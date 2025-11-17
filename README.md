@@ -1,9 +1,15 @@
 # 📝 Markdown Editor
 
-
-![Dark Mode Preview](images/demo_night_mode.png)
-
-![Light Mode Preview](images/demo_day_mode.png)
+<table>
+  <tr>
+    <td>
+      <img src="images/demo_night_mode.png" alt="Dark Mode Preview" width="400"/>
+    </td>
+    <td>
+      <img src="images/demo_day_mode.png" alt="Light Mode Preview" width="400"/>
+    </td>
+  </tr>
+</table>
 
 
 A feature-rich, dual-pane Markdown editor with live preview, theme support, and seamless image handling. Built with PyQt5 for a native desktop experience.
